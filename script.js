@@ -1,6 +1,6 @@
 function submit(){
     var score = scoreOfuser.value
-    var songfail = new Audio ("assests/audio_AUD-20200714-WA0013.m4a")
+    var songfail = new Audio ("assests/audio_AUD-20200714-WA0013.m4ag")
     var songpass = new Audio ("assests/audio_AUD-20200621-WA0012 (1).m4a")
     var songaverage = new Audio ("assests/audio_AUD-20200616-WA0019.mp3")
     var  songcredit = new Audio ("assests/audio_AUD-20200617-WA0066.mp3")
