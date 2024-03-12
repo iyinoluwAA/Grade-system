@@ -1,25 +1,27 @@
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grade system</title>
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <title>Grade system</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container-fluid">
-    <form class="mx-auto">
-        <h4 class="text-dark text-center">Grade System</h4>
-        <div class="mb-3 mt-5">
-          <label for="exampleInputScore" class="form-label">Grade Score</label>
-          <input type="Score" class="form-control" id="scoreOfuser" aria-describedby="emailHelp">
-          <div id="ScorelHelp" class="form-text mt-3">Enter Your Grade Score</div>
-        </div>
-        <button type="submit" class="btn btn-primary mt-4"onclick="gradeSystem()">Submit</button>
-      </form>
-      <input type="text" class="form-control w-50 mx-auto text-center" disabled placeholder="See Result Here" aria-label="Your Result" aria-describedby="button-addon2" id="Jordan">
+  <div class="container-fluid former">
+    <h4 class="text-dark text-center ">Grade System</h4>
+    <div class="mb-3 mt-5">
+      <input type="Score" class="form-control" id="scoreOfuser" aria-describedby="button-did">
+      <div   class="form-text mt-3">Enter Your Grade Score</div>
     </div>
-  
+    <button type="submit" class="btn btn-danger mt-4" id="btn" onclick="submit()">Submit</button>
+  </div>
+  <center>
+  <div id="show" class="text-white fs-4 ">Your grade will be displayed here</div>
+
+  </center>
+  <script src="script.js"></script>
 </body>
 </html>
